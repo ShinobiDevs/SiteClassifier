@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["elad@eizesus.com"]
   spec.description   = "Return a tag list for submitted urls"
   spec.summary       = "This gem extracts a list of english tags for a given url"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ShinobiDevs/SiteClassifier"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
