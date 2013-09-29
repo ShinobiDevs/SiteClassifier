@@ -28,7 +28,12 @@ Or install it yourself as:
 
 ## Usage
 
-    SiteClassifier::Extractor.parse_site("http://cnn.com") #=> {:most_significant=>["cnn", "news", "breaking news", "busines", "sport", "entertainment", "special report"], :language=>"", :url=>"http://cnn.com", :tags=>["cnn", "cnn news", "cnn international", "cnn international news", "cnn edition", "edition news", "news", "news online", "breaking news", "u.s. news", "world news", "global news", "weather", "business", "cnn money", "sports", "politics", "law", "technology", "entertainment", "education", "travel", "health", "special reports", "autos", "developing story", "news video", "cnn intl", "podcasts", "world blogs"], :description=>"CNN.com International delivers breaking news from across the globe and information on the latest top stories, business, sports and entertainment headlines. Follow the news as it happens through: special reports, videos, audio, photo galleries plus interactive maps and timelines."}
+    SiteClassifier::Extractor.parse_site("http://cnn.com") 
+    #=> {:most_significant=>["cnn", "news", "breaking news", "busines", "sport", "entertainment", "special report"], 
+        :language=>"auto", 
+        :url=>"http://cnn.com", 
+        :tags=>["cnn", "cnn news", "cnn international", "cnn international news", "cnn edition", "edition news", "news", "news online", "breaking news", "u.s. news", "world news", "global news", "weather", "business", "cnn money", "sports", "politics", "law", "technology", "entertainment", "education", "travel", "health", "special reports", "autos", "developing story", "news video", "cnn intl", "podcasts", "world blogs"], 
+        :description=>"CNN.com International delivers breaking news from across the globe and information on the latest top stories, business, sports and entertainment headlines. Follow the news as it happens through: special reports, videos, audio, photo galleries plus interactive maps and timelines."}
 
 ## Contributing
 

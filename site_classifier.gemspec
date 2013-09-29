@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
   spec.add_dependency "httparty", "0.11.0"
   spec.add_dependency "nokogiri", "1.6.0"
   spec.add_dependency "easy_translate", "0.3.3"

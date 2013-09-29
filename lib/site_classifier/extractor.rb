@@ -37,7 +37,7 @@ module SiteClassifier
       end
 
       self.validate_lang
-      
+
       if SiteClassifier.translate_tags?
         begin
           if self.lang == "auto"
