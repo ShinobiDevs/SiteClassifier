@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "httparty", "0.11.0"
   spec.add_dependency "nokogiri", "1.6.0"
   spec.add_dependency "easy_translate", "0.3.3"
-  spec.add_dependency "active_support", "3.0.0"
+  spec.add_dependency "active_support"
 end
